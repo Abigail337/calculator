@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, black, rgb(19, 189, 132) );
+}
+
+input {
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 25%;
+    color: rgb(255, 32, 32);
+}
+
+.num {
+    width: 64px;
+    height: 67px;
+    color: black;
+    margin: 5px;
+}
+
+.text {
+    width: 185px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.text1 {
+    width: 24px;
+    height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: black;
+    margin: 5px;
+}
+
+#cal {
+    text-align: center;
+    color: rgb(235, 236, 236);
+    font-size: 43px;
+    padding-bottom: 15px;
+}
+
+.main {
+    display: inline-block;
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.maincolor {
+    background-color: rgb(255, 255, 255);
+}
+
+.blue {
+    background-color: #0cd0cd
+}
+
+.pin {
+    background-color: #cf1596;
+}
+
+.gre {
+    background-color: #aad800;
+}
+
+.pur {
+    background-color: #8c52ff;
+}
+
+.ora {
+    background-color: #fcb707;
+}
+
